@@ -1,0 +1,492 @@
+# Copyright (C) 2020 
+# This file is distributed under the same license as the recommender plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: recommender\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/recommender-"
+"plugin\n"
+"POT-Creation-Date: 2020-10-18T15:00:34+00:00\n"
+"PO-Revision-Date: 2020-03-04 11:08+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Domain: recommender-plugin\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Plugin Name of the plugin
+msgid "Robera Recommender"
+msgstr "توصیه‌گر روبه‌راه"
+
+#. Description of the plugin
+msgid ""
+"This Plugins help you interact with your WooCommerce users smarter by "
+"recommend products and related-products to them according to their "
+"preferences."
+msgstr ""
+"این پلاگین به شما کمک می‌کند که تعامل هوشمندی با کاربرانتان داشته باشید.با "
+"استفاده از این پلاگین می‌توانید کالاهای پیشنهادی و محصولات مشابه را بر اساس "
+"سلیقه‌ی کاربرتان به وی نمایش دهید."
+
+#: core/recommender-admin.php:143
+msgid ""
+"Note: The items shown in this block are personalized. It means each person "
+"would see a unique content on this block."
+msgstr ""
+"توجه: محصولاتی نمایش داده شده در این نوار به وسیله‌ی روبه‌راه شخصی‌سازی می‌شود. "
+"یعنی هر کاربری متناسب با سلیقه خودش این نوار را خواهد دید و برای همه یکسان "
+"نیست."
+
+#: core/recommender-admin.php:158 core/templates/error.php:4
+msgid "Robera"
+msgstr "توصیه‌گر روبه‌راه"
+
+#: core/recommender-admin.php:161 core/recommender-admin.php:162
+msgid "Dashboard"
+msgstr "پیشخوان"
+
+#: core/recommender-admin.php:170 core/recommender-admin.php:171
+msgid "Users"
+msgstr "کاربران"
+
+#: core/recommender-admin.php:198
+msgid "Receiving Data"
+msgstr "در حال دریافت داده‌های فروشگاه"
+
+#: core/recommender-admin.php:199
+msgid "Training the Engine"
+msgstr "در حال سر در آوردن از رفتار مشتری"
+
+#: core/recommender-admin.php:200
+msgid "Ready"
+msgstr "سامانه روبه‌راهه"
+
+#: core/recommender-admin.php:203
+msgid "We are receiving your data and will work on them ASAP."
+msgstr ""
+"در حال دریافت و ذخیره داده‌های سایت شما هستیم و به زودی روی اون‌ها کار خواهیم "
+"کرد."
+
+#: core/recommender-admin.php:204
+msgid "Data received. We are studying customers’ behavior based on your data."
+msgstr ""
+"در حال مطالعه و یادگیری رفتار مشتری از روی داده‌های ارسالی از سایت شما هستیم. "
+"داده‌ها رو گذاشتیم بار، فقط باید جا بیفتد!"
+
+#: core/recommender-admin.php:205
+msgid "Robera is at your service. Enjoy our recommendation system."
+msgstr ""
+"همه چیز روبه‌راهه و نوار توصیه‌گر روبه‌راه آماده سرویس‌دهیه. حالش رو ببرید."
+
+#: core/recommender-admin.php:235
+msgid "purchase"
+msgstr "خرید"
+
+#: core/recommender-admin.php:236
+msgid "login"
+msgstr "ورود به سایت"
+
+#: core/recommender-admin.php:237
+msgid "click on recommended"
+msgstr "کلیک روی محصول پیشنهادی"
+
+#: core/recommender-admin.php:238
+msgid "add to cart"
+msgstr "اضافه کردن به سبد خرید"
+
+#: core/recommender-admin.php:239
+msgid "view"
+msgstr "مشاهده‌ی صفحه"
+
+#: core/recommender-admin.php:240
+msgid "register"
+msgstr "ثبت‌نام"
+
+#: core/recommender-admin.php:241
+msgid "remove from cart"
+msgstr "حذف از سبد خرید"
+
+#: core/recommender-admin.php:242
+msgid "no interaction"
+msgstr "بدون تعامل قبلی"
+
+#: core/recommender-plugin.php:215
+msgid "Powered by"
+msgstr "پیشنهاد شده از طرف"
+
+#: core/recommender-plugin.php:216
+msgid "rooberah"
+msgstr "روبه‌راه"
+
+#: core/templates/settings-page.php:4
+msgid "Recommendations on user Statistics"
+msgstr "آمار نوار پیشنهاد شخصی‌سازی شده‌ی روبه‌راه به کاربر"
+
+#: core/templates/settings-page.php:5
+msgid "Related Items Recommendation's Statistics"
+msgstr "آمار نوار پیشنهاد محصولات مشابه از طرف روبه‌راه"
+
+#: core/templates/settings-page.php:9
+msgid "Number of related products recommendation blocks shown to users."
+msgstr "تعداد دفعاتی که روبه‌راه نوار «محصولات مرتبط» را نمایش داده."
+
+#: core/templates/settings-page.php:10
+msgid "Number of recommendations on user block shown to users"
+msgstr "تعداد دفعاتی که روبه‌راه نوار پیشنهادات به کاربر را نمایش داده."
+
+#: core/templates/settings-page.php:24 core/templates/users-page.php:111
+msgid "Attention"
+msgstr "توجه!"
+
+#: core/templates/settings-page.php:40
+msgid "Robera's State"
+msgstr "وضعیت اتصال به روبه‌راه"
+
+#: core/templates/settings-page.php:43
+msgid "Refresh the page to try again."
+msgstr ""
+"ارتباط با سرور روبه‌راه برقرار نشد. برای تلاش مجدد صفحه‌را مجددا بارگذاری کنید."
+
+#: core/templates/settings-page.php:43
+msgid "Connection to Robera failed"
+msgstr "اتصال با روبه‌راه برقرار نشد."
+
+#: core/templates/settings-page.php:63
+msgid "Robera Statistics"
+msgstr "آمار روبه‌راه"
+
+#: core/templates/settings-page.php:68
+msgid "Last 7 Days"
+msgstr "هفت روز گذشته"
+
+#: core/templates/settings-page.php:70
+msgid "Last Month"
+msgstr "ماه گذشته"
+
+#: core/templates/settings-page.php:72
+msgid "Custom"
+msgstr "دلخواه"
+
+#: core/templates/settings-page.php:78
+msgid "Sync Data"
+msgstr "همگام‌سازی داده‌ها"
+
+#: core/templates/settings-page.php:95 core/templates/users-page.php:171
+msgid "Filter"
+msgstr "فیلتر"
+
+#: core/templates/settings-page.php:110
+msgid "Recommendation blocks"
+msgstr "نوار پیشنهاد"
+
+#: core/templates/settings-page.php:114
+msgid ""
+"Number of Clicks on the items of the Recommendation Block. Click on any item "
+"of the block will count."
+msgstr ""
+"تعداد دفعاتی که روی نوار پیشنهادهای روبه‌راه کلیک شده. کلیک روی هر یک از "
+"محصولات نوار، یک مورد موفق محسوب می‌شه."
+
+#: core/templates/settings-page.php:117
+msgid "Clicks"
+msgstr "کلیک‌"
+
+#: core/templates/settings-page.php:121
+msgid ""
+"Shows the number of bought items from Robera’s recommended items. If a "
+"person buys 2 of one product, it will count 2."
+msgstr ""
+"تعداد کالاهای خریداری شده‌از طریق کلیک روی نوار پیشنهاد روبه‌راه نمایش داده "
+"می‌شود. اگر کاربر در یک سفارش از یک کالا، دو تا خریده باشه، دو بار در این بخش "
+"حساب می‌شه."
+
+#: core/templates/settings-page.php:124
+msgid "Bought Items"
+msgstr "قلم خریداری شده"
+
+#: core/templates/settings-page.php:128
+msgid "Shows the total money earned by recommended products."
+msgstr "مجموع تومانی خریدهای انجام شده از کانال نوار پیشنهاد محصولات روبه‌راه"
+
+#: core/templates/settings-page.php:131
+msgid "Bought Value"
+msgstr "ارزش خرید انجام شده"
+
+#: core/templates/settings-page.php:136
+msgid "Robera Recommender Settings"
+msgstr "تنظیمات توصیه‌گر روبه‌راه"
+
+#: core/templates/settings-page.php:144
+msgid ""
+"To add personalized recommendation block in any page (including homepage), "
+"use Robera recommendation block inside Woocommerce blocks in page editor"
+msgstr ""
+"برای اضافه کردن نوار پیشنهادات به هر کاربر در صفحه‌ی دلخواه، از بلاک توصیه‌گر "
+"روبه‌راه بین بلاک‌های ووکامرس در صفحه‌ی ویرایش صفحات استفاده کنید."
+
+#: core/templates/settings-page.php:152
+msgid "Use recommendations for related products."
+msgstr "برای محصولات مشابه از پیشنهادهای هوشمند  روبه‌راه استفاده کن."
+
+#: core/templates/settings-page.php:156
+msgid "Related products section class name"
+msgstr "نام کلاس (css) بخش محصولات مشابه"
+
+#: core/templates/settings-page.php:164
+msgid "Submit"
+msgstr "ذخیره"
+
+#: core/templates/user-page.php:4
+msgid "interaction type"
+msgstr "نوع تعامل"
+
+#: core/templates/user-page.php:5
+msgid "interaction time"
+msgstr "زمان تعامل"
+
+#: core/templates/user-page.php:6
+msgid "interaction value"
+msgstr "مقدار"
+
+#: core/templates/user-page.php:7
+msgid "item name (or page title)"
+msgstr "نام کالا ( یا صفحه )"
+
+#: core/templates/user-page.php:8
+msgid "price"
+msgstr "قیمت"
+
+#: core/templates/user-page.php:15
+msgid "Back"
+msgstr "بازگشت"
+
+#: core/templates/user-page.php:20
+msgid "User"
+msgstr "کاربر"
+
+#: core/templates/user-page.php:25
+msgid "Number of purchases"
+msgstr "تعداد کل خرید"
+
+#: core/templates/user-page.php:30
+msgid "Total value of purchases"
+msgstr "میزان کل خریدها"
+
+#: core/templates/user-page.php:35
+msgid "Register date"
+msgstr "تاریخ ثبت‌نام"
+
+#: core/templates/user-page.php:40
+msgid "First visit"
+msgstr "اولین مشاهده‌ی صفحه"
+
+#: core/templates/user-page.php:45
+msgid "Num visited pages"
+msgstr "تعداد صفحات مشاهده کرده"
+
+#: core/templates/user-page.php:64 core/templates/user-page.php:71
+#: core/templates/user-page.php:81
+msgid "units"
+msgstr "عدد"
+
+#: core/templates/user-page.php:81 core/templates/users-page.php:144
+msgid "seconds"
+msgstr "ثانیه"
+
+#: core/templates/users-page.php:13
+msgid "user id"
+msgstr "شناسه کاربر"
+
+#: core/templates/users-page.php:14 core/templates/users-page.php:32
+msgid "last interaction time"
+msgstr "تاریخ آخرین تعامل"
+
+#: core/templates/users-page.php:16 core/templates/users-page.php:34
+msgid "total purchase"
+msgstr "میزان کل خرید"
+
+#: core/templates/users-page.php:17 core/templates/users-page.php:35
+msgid "num purchase"
+msgstr "تعداد خرید"
+
+#: core/templates/users-page.php:18 core/templates/users-page.php:36
+msgid "time on site"
+msgstr "زمان ماندن در سایت"
+
+#: core/templates/users-page.php:19
+msgid "cart value"
+msgstr "ارزش سبد خرید کنونی"
+
+#: core/templates/users-page.php:23
+msgid "The very last time that the person had an interaction"
+msgstr "آخرین باری که یک نفر با سایت تعاملی داشته است"
+
+#: core/templates/users-page.php:25
+msgid "Total value of user's purchases"
+msgstr ""
+"مجموع خریدهای کاربر را بر حسب واحد پولی سایت شما (تومان یا ریال) نمایش می‌دهد"
+
+#: core/templates/users-page.php:26
+msgid "Total number of user's purchased order items"
+msgstr ""
+" مجموع تعداد کل قلم کالای خریداری شده توسط کاربر از ابتدا تا امروز را نشان "
+"می‌دهد"
+
+#: core/templates/users-page.php:27
+msgid "Total time spent by user in your website"
+msgstr " مجموع زمانی که کاربر از زمان نصب ما تا امروز در سایت گذرانده است"
+
+#: core/templates/users-page.php:31
+msgid "anonymous id"
+msgstr "شناسه کاربر نا‌شناس"
+
+#: core/templates/users-page.php:38
+msgid "From"
+msgstr "از"
+
+#: core/templates/users-page.php:39
+msgid "To"
+msgstr "تا"
+
+#: core/templates/users-page.php:70
+msgid "Total Users : "
+msgstr "تعداد کل کاربران : "
+
+#: core/templates/users-page.php:89 core/templates/users-page.php:269
+msgid "Anonymous Users"
+msgstr "کاربران نا‌شناس"
+
+#: core/templates/users-page.php:90 core/templates/users-page.php:266
+msgid "Registered Users"
+msgstr "کاربران ثبت‌نام کرده"
+
+#: core/templates/users-page.php:123
+msgid "number of purchases"
+msgstr "تعداد کل خرید"
+
+#: core/templates/users-page.php:128
+msgid "total value of purchases"
+msgstr "کل میزان خریدها"
+
+#: core/templates/users-page.php:133
+msgid "average value of purchases"
+msgstr "میانگین قیمت سبدهای خرید"
+
+#: core/templates/users-page.php:138
+msgid "average of users' views"
+msgstr "میانگین تعداد صفحات بازدید شده‌ی هر کاربر"
+
+#: core/templates/users-page.php:143
+msgid "total view average time"
+msgstr "میانگین زمان ماندن در هر صفحه"
+
+#: core/templates/users-page.php:155
+msgid "Filter Users"
+msgstr "فیلتر کردن کاربران"
+
+#: core/templates/users-page.php:157
+msgid "Filter Anonymous Users"
+msgstr "فیلتر کردن کابران نا‌شناس"
+
+#: core/templates/users-page.php:161
+msgid "Last Interaction time"
+msgstr "زمان آخرین تعامل"
+
+#: core/templates/users-page.php:163
+msgid "First Interaction time"
+msgstr "زمان اولین تعامل"
+
+#: core/templates/users-page.php:165
+msgid "Total Purchase amount"
+msgstr "مجموع خرید"
+
+#: core/templates/users-page.php:167
+msgid "Num of purchases"
+msgstr "تعداد خرید"
+
+#: core/templates/users-page.php:169
+msgid "Product purchased"
+msgstr "محصول خریداری شده"
+
+#: core/templates/users-page.php:174
+msgid "Remove Filters"
+msgstr "حذف فیلترها"
+
+#: core/templates/users-page.php:247
+msgid "Product"
+msgstr "محصول"
+
+#: core/templates/users-page.php:274
+msgid "Not Found"
+msgstr "نتیجه‌ای یافت نشد"
+
+#: core/templates/users-page.php:288
+msgid "Anonymous User"
+msgstr "کاربر نا‌شناس"
+
+#: core/static/block.js:120
+msgid "Robera Recommendation"
+msgstr "نوار پیشنهاد روبه‌راه"
+
+#: core/static/block.js:146
+msgid "Number of products"
+msgstr "تعداد محصول‌ها"
+
+#~ msgid "last interaction type"
+#~ msgstr "نوع آخرین تعامل"
+
+#, fuzzy
+#~ msgid "Product viewed"
+#~ msgstr "محصول مشاهده شده"
+
+#~ msgid "View product"
+#~ msgstr "محصول مشاهده شده"
+
+#~ msgid "item id"
+#~ msgstr "شناسه کالا"
+
+#~ msgid "( seconds )"
+#~ msgstr "( ثانیه )"
+
+#~ msgid "num users"
+#~ msgstr "تعداد کاربران"
+
+#~ msgid "num anonymous users"
+#~ msgstr "تعداد کاربران ناشناس"
+
+#~ msgid "presence"
+#~ msgstr "مجموع زمان حضور در سایت"
+
+#~ msgid "This Plugins recommends stuff to your users"
+#~ msgstr "این افزونه به کاربر محصول‌های مرتبط را پیشنهاد می‌دهد."
+
+#~ msgid "Product Recommendation for User"
+#~ msgstr "پیشنهاد محصولات به کاربر"
+
+#~ msgid "training"
+#~ msgstr "در حال مدل‌سازی"
+
+#~ msgid "trained"
+#~ msgstr "همه چیز روبه‌راه است :)"
+
+#~ msgid "The last state of robera"
+#~ msgstr "آخرین وضعیت روبه‌راه"
+
+#~ msgid "number of recommendations"
+#~ msgstr "تعداد نوار محصول‌ها"
+
+#~ msgid "Items bought"
+#~ msgstr "قلم خریداری شده"
+
+#~ msgid "Class names"
+#~ msgstr "نام کلاس‌ها"
+
+#~ msgid ""
+#~ "Here you will have a recommendation block for user with {0} columns. "
+#~ msgstr "اینجا محصول‌های پیشنهادی به کاربر در {0} ستون قرار می‌گیرد."
+
+#~ msgid "For changing number of columns use sidebar settings."
+#~ msgstr "برای تغییر تعداد ستون‌ها از نوار تنظیمات کنار استفاده کنید."

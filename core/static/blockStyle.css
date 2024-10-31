@@ -1,0 +1,41 @@
+.RBR-column {
+    float: left;
+    width: -webkit-fill-available;
+    padding: 5px;
+    /*flex: 33.33%;*/
+    /*display: inline-flex;*/
+    text-align: center;
+    display: grid;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+/* Clear floats after image containers */
+.RBR-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.RBR-back{
+    background-color: #f5f5f5;
+    padding: 8px;
+}
+.RBR-row {
+    display: flex;
+    max-height: 270px;
+}
+
+.RBR-image {
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.RBR-cart {
+    padding: 11px 20px 11px 20px;
+    border-radius: 28px;
+    font-size: 8px;
+    background-color: black;
+    font-weight: 800;
+    color: white;
+}

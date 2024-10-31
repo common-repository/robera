@@ -1,0 +1,413 @@
+# Copyright (C) 2020 
+# This file is distributed under the same license as the Robera Recommender plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Robera Recommender 1.0.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/recommender-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-10-18T15:00:34+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: robera-recommender\n"
+
+#. Plugin Name of the plugin
+msgid "Robera Recommender"
+msgstr ""
+
+#. Description of the plugin
+msgid "This Plugins help you interact with your WooCommerce users smarter by recommend products and related-products to them according to their preferences."
+msgstr ""
+
+#: core/recommender-admin.php:143
+msgid "Note: The items shown in this block are personalized. It means each person would see a unique content on this block."
+msgstr ""
+
+#: core/recommender-admin.php:158
+#: core/templates/error.php:4
+msgid "Robera"
+msgstr ""
+
+#: core/recommender-admin.php:161
+#: core/recommender-admin.php:162
+msgid "Dashboard"
+msgstr ""
+
+#: core/recommender-admin.php:170
+#: core/recommender-admin.php:171
+msgid "Users"
+msgstr ""
+
+#: core/recommender-admin.php:198
+msgid "Receiving Data"
+msgstr ""
+
+#: core/recommender-admin.php:199
+msgid "Training the Engine"
+msgstr ""
+
+#: core/recommender-admin.php:200
+msgid "Ready"
+msgstr ""
+
+#: core/recommender-admin.php:203
+msgid "We are receiving your data and will work on them ASAP."
+msgstr ""
+
+#: core/recommender-admin.php:204
+msgid "Data received. We are studying customers’ behavior based on your data."
+msgstr ""
+
+#: core/recommender-admin.php:205
+msgid "Robera is at your service. Enjoy our recommendation system."
+msgstr ""
+
+#: core/recommender-admin.php:235
+msgid "purchase"
+msgstr ""
+
+#: core/recommender-admin.php:236
+msgid "login"
+msgstr ""
+
+#: core/recommender-admin.php:237
+msgid "click on recommended"
+msgstr ""
+
+#: core/recommender-admin.php:238
+msgid "add to cart"
+msgstr ""
+
+#: core/recommender-admin.php:239
+msgid "view"
+msgstr ""
+
+#: core/recommender-admin.php:240
+msgid "register"
+msgstr ""
+
+#: core/recommender-admin.php:241
+msgid "remove from cart"
+msgstr ""
+
+#: core/recommender-admin.php:242
+msgid "no interaction"
+msgstr ""
+
+#: core/recommender-plugin.php:215
+msgid "Powered by"
+msgstr ""
+
+#: core/recommender-plugin.php:216
+msgid "rooberah"
+msgstr ""
+
+#: core/templates/settings-page.php:4
+msgid "Recommendations on user Statistics"
+msgstr ""
+
+#: core/templates/settings-page.php:5
+msgid "Related Items Recommendation's Statistics"
+msgstr ""
+
+#: core/templates/settings-page.php:9
+msgid "Number of related products recommendation blocks shown to users."
+msgstr ""
+
+#: core/templates/settings-page.php:10
+msgid "Number of recommendations on user block shown to users"
+msgstr ""
+
+#: core/templates/settings-page.php:24
+#: core/templates/users-page.php:111
+msgid "Attention"
+msgstr ""
+
+#: core/templates/settings-page.php:40
+msgid "Robera's State"
+msgstr ""
+
+#: core/templates/settings-page.php:43
+msgid "Refresh the page to try again."
+msgstr ""
+
+#: core/templates/settings-page.php:43
+msgid "Connection to Robera failed"
+msgstr ""
+
+#: core/templates/settings-page.php:63
+msgid "Robera Statistics"
+msgstr ""
+
+#: core/templates/settings-page.php:68
+msgid "Last 7 Days"
+msgstr ""
+
+#: core/templates/settings-page.php:70
+msgid "Last Month"
+msgstr ""
+
+#: core/templates/settings-page.php:72
+msgid "Custom"
+msgstr ""
+
+#: core/templates/settings-page.php:78
+msgid "Sync Data"
+msgstr ""
+
+#: core/templates/settings-page.php:95
+#: core/templates/users-page.php:171
+msgid "Filter"
+msgstr ""
+
+#: core/templates/settings-page.php:110
+msgid "Recommendation blocks"
+msgstr ""
+
+#: core/templates/settings-page.php:114
+msgid "Number of Clicks on the items of the Recommendation Block. Click on any item of the block will count."
+msgstr ""
+
+#: core/templates/settings-page.php:117
+msgid "Clicks"
+msgstr ""
+
+#: core/templates/settings-page.php:121
+msgid "Shows the number of bought items from Robera’s recommended items. If a person buys 2 of one product, it will count 2."
+msgstr ""
+
+#: core/templates/settings-page.php:124
+msgid "Bought Items"
+msgstr ""
+
+#: core/templates/settings-page.php:128
+msgid "Shows the total money earned by recommended products."
+msgstr ""
+
+#: core/templates/settings-page.php:131
+msgid "Bought Value"
+msgstr ""
+
+#: core/templates/settings-page.php:136
+msgid "Robera Recommender Settings"
+msgstr ""
+
+#: core/templates/settings-page.php:144
+msgid "To add personalized recommendation block in any page (including homepage), use Robera recommendation block inside Woocommerce blocks in page editor"
+msgstr ""
+
+#: core/templates/settings-page.php:152
+msgid "Use recommendations for related products."
+msgstr ""
+
+#: core/templates/settings-page.php:156
+msgid "Related products section class name"
+msgstr ""
+
+#: core/templates/settings-page.php:164
+msgid "Submit"
+msgstr ""
+
+#: core/templates/user-page.php:4
+msgid "interaction type"
+msgstr ""
+
+#: core/templates/user-page.php:5
+msgid "interaction time"
+msgstr ""
+
+#: core/templates/user-page.php:6
+msgid "interaction value"
+msgstr ""
+
+#: core/templates/user-page.php:7
+msgid "item name (or page title)"
+msgstr ""
+
+#: core/templates/user-page.php:8
+msgid "price"
+msgstr ""
+
+#: core/templates/user-page.php:15
+msgid "Back"
+msgstr ""
+
+#: core/templates/user-page.php:20
+msgid "User"
+msgstr ""
+
+#: core/templates/user-page.php:25
+msgid "Number of purchases"
+msgstr ""
+
+#: core/templates/user-page.php:30
+msgid "Total value of purchases"
+msgstr ""
+
+#: core/templates/user-page.php:35
+msgid "Register date"
+msgstr ""
+
+#: core/templates/user-page.php:40
+msgid "First visit"
+msgstr ""
+
+#: core/templates/user-page.php:45
+msgid "Num visited pages"
+msgstr ""
+
+#: core/templates/user-page.php:64
+#: core/templates/user-page.php:71
+#: core/templates/user-page.php:81
+msgid "units"
+msgstr ""
+
+#: core/templates/user-page.php:81
+#: core/templates/users-page.php:144
+msgid "seconds"
+msgstr ""
+
+#: core/templates/users-page.php:13
+msgid "user id"
+msgstr ""
+
+#: core/templates/users-page.php:14
+#: core/templates/users-page.php:32
+msgid "last interaction time"
+msgstr ""
+
+#: core/templates/users-page.php:16
+#: core/templates/users-page.php:34
+msgid "total purchase"
+msgstr ""
+
+#: core/templates/users-page.php:17
+#: core/templates/users-page.php:35
+msgid "num purchase"
+msgstr ""
+
+#: core/templates/users-page.php:18
+#: core/templates/users-page.php:36
+msgid "time on site"
+msgstr ""
+
+#: core/templates/users-page.php:19
+msgid "cart value"
+msgstr ""
+
+#: core/templates/users-page.php:23
+msgid "The very last time that the person had an interaction"
+msgstr ""
+
+#: core/templates/users-page.php:25
+msgid "Total value of user's purchases"
+msgstr ""
+
+#: core/templates/users-page.php:26
+msgid "Total number of user's purchased order items"
+msgstr ""
+
+#: core/templates/users-page.php:27
+msgid "Total time spent by user in your website"
+msgstr ""
+
+#: core/templates/users-page.php:31
+msgid "anonymous id"
+msgstr ""
+
+#: core/templates/users-page.php:38
+msgid "From"
+msgstr ""
+
+#: core/templates/users-page.php:39
+msgid "To"
+msgstr ""
+
+#: core/templates/users-page.php:70
+msgid "Total Users : "
+msgstr ""
+
+#: core/templates/users-page.php:89
+#: core/templates/users-page.php:269
+msgid "Anonymous Users"
+msgstr ""
+
+#: core/templates/users-page.php:90
+#: core/templates/users-page.php:266
+msgid "Registered Users"
+msgstr ""
+
+#: core/templates/users-page.php:123
+msgid "number of purchases"
+msgstr ""
+
+#: core/templates/users-page.php:128
+msgid "total value of purchases"
+msgstr ""
+
+#: core/templates/users-page.php:133
+msgid "average value of purchases"
+msgstr ""
+
+#: core/templates/users-page.php:138
+msgid "average of users' views"
+msgstr ""
+
+#: core/templates/users-page.php:143
+msgid "total view average time"
+msgstr ""
+
+#: core/templates/users-page.php:155
+msgid "Filter Users"
+msgstr ""
+
+#: core/templates/users-page.php:157
+msgid "Filter Anonymous Users"
+msgstr ""
+
+#: core/templates/users-page.php:161
+msgid "Last Interaction time"
+msgstr ""
+
+#: core/templates/users-page.php:163
+msgid "First Interaction time"
+msgstr ""
+
+#: core/templates/users-page.php:165
+msgid "Total Purchase amount"
+msgstr ""
+
+#: core/templates/users-page.php:167
+msgid "Num of purchases"
+msgstr ""
+
+#: core/templates/users-page.php:169
+msgid "Product purchased"
+msgstr ""
+
+#: core/templates/users-page.php:174
+msgid "Remove Filters"
+msgstr ""
+
+#: core/templates/users-page.php:247
+msgid "Product"
+msgstr ""
+
+#: core/templates/users-page.php:274
+msgid "Not Found"
+msgstr ""
+
+#: core/templates/users-page.php:288
+msgid "Anonymous User"
+msgstr ""
+
+#: core/static/block.js:120
+msgid "Robera Recommendation"
+msgstr ""
+
+#: core/static/block.js:146
+msgid "Number of products"
+msgstr ""
